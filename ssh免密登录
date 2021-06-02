@@ -1,11 +1,11 @@
-···java
+```bash
 1、打开三个节点（我的是三个）
 
 ①master ②slave1 ③slave2
 
 2、创建密钥
 
-  $ ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
+  $ ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
 
 3、追加密钥到autorized_keys文件，并设置权限
 
@@ -28,4 +28,5 @@ $ chmod 0600 ~/.ssh/authorized_keys
 7.$ssh master(此处为id地址或者在host中设置的节点名)
 
 最后就发现不用密码可以连接其他节点了
-···java
+```
+
